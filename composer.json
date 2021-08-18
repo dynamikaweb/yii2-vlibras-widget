@@ -1,9 +1,9 @@
 {
-    "name": "dynamikaweb/yii2-template",
-    "description": "",
+    "name": "dynamikaweb/yii2-vlibras-widget",
+    "description": "Widget to use the Brazilian tool vlibras anywhere in the view in yii2",
     "type": "yii2-extension",
-    "keywords": ["dynamika", "yii2"],
-    "license": "BSD-3-Clause",
+    "keywords": ["dynamika", "yii2", "libras", "widget"],
+    "license": "LGPL-3.0-only",
     "authors": [
         {
             "name": "Rodrigo Dornelles",
@@ -17,17 +17,16 @@
         }
     ],
     "support": {
-        "issues": "http://github.com/dynamikaweb/yii2-template/issues",
-        "source": "http://github.com/dynamikaweb/yii2-template"
+        "issues": "http://github.com/dynamikaweb/yii2-vlibras-widget/issues",
+        "source": "http://github.com/dynamikaweb/yii2-vlibras-widget"
     },
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
         "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
-            "dynamikaweb\\": "src"
+            "dynamikaweb\\vlibras\\": "src"
         }
     },
     "repositories": [
